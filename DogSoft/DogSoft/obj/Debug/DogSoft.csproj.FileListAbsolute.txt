@@ -1,0 +1,97 @@
+D:\DogSoft\DogSoft\bin\Debug\DogSoft.exe.config
+D:\DogSoft\DogSoft\bin\Debug\DogSoft.exe
+D:\DogSoft\DogSoft\bin\Debug\DogSoft.pdb
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.csprojAssemblyReference.cache
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.Form1.resources
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.Gerencimento_de_funcionário.resources
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.Properties.Resources.resources
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.GenerateResource.cache
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.CoreCompileInputs.cache
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.exe
+D:\DogSoft\DogSoft\obj\Debug\DogSoft.pdb
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\bin\Debug\DogSoft.exe.config
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\bin\Debug\DogSoft.exe
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\bin\Debug\DogSoft.pdb
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.csprojAssemblyReference.cache
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.Login.resources
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.TelaPrincipal.resources
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.Gerenciamentofuncionario.resources
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.Properties.Resources.resources
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.GenerateResource.cache
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.exe
+C:\Users\Leonardo\Desktop\DogSoft\DogSoft\obj\Debug\DogSoft.pdb
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.exe.config
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.exe
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.pdb
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Login.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.TelaPrincipal.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Gerenciamentofuncionario.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Properties.Resources.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.GenerateResource.Cache
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.CoreCompileInputs.cache
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.exe
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.pdb
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.exe.config
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.exe
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\bin\Debug\DogSoft.pdb
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csprojAssemblyReference.cache
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Login.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.TelaPrincipal.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Gerenciamentofuncionario.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Properties.Resources.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.GenerateResource.cache
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.CoreCompileInputs.cache
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.exe
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.pdb
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaFuncionario.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaFuncionario.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ReceberContas.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ReceberContas.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaCliente.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.RegistroAtendimento.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaCliente.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.RegistroAtendimento.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.PerguntaValor.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.PerguntaValor.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaAtendimento.resources
+C:\Users\Leonardo\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.FormaPagamento.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaAtendimento.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.FormaPagamento.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.csprojAssemblyReference.cache
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarFornecedor.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarPedido.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarProduto.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.CancelaPedido.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.GerenciarEntrega.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.Registar_Pedido_Telefonico.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.TelaParametrizacao.resources
+C:\Users\Aluno\Downloads\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.GerenciarFornecedor.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\bin\Debug\DogSoft.exe.config
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\bin\Debug\DogSoft.exe
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\bin\Debug\DogSoft.pdb
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.csprojResolveAssemblyReference.cache
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarFornecedor.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarPedido.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.BuscarProduto.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.CancelaPedido.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaAtendimento.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaCliente.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ConsultaFuncionario.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.FormaPagamento.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.GerenciarEntrega.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.GerenciarFornecedor.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Login.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.PerguntaValor.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.ReceberContas.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.Registar_Pedido_Telefonico.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.RegistroAtendimento.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.TelaParametrizacao.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.TelaPrincipal.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Gerenciamentofuncionario.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Properties.Resources.resources
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.GenerateResource.Cache
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.exe
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.pdb
+C:\Users\Usuario\Desktop\Eng 2 2019\DogSoft\DogSoft\obj\Debug\DogSoft.Visao.FormaPagamento2.resources

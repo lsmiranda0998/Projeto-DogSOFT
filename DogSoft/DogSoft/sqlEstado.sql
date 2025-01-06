@@ -1,0 +1,6 @@
+﻿CREATE TABLE Estado (
+	est_cod INTEGER IDENTITY(1,1) NOT NULL,
+	est_sgl VARCHAR(10) NOT NULL,
+	est_nome VARCHAR(100) NOT NULL
+	CONSTRAINT pkEst PRIMARY KEY (est_cod)
+    );

@@ -1,0 +1,7 @@
+﻿CREATE TABLE Cidade (
+	cid_cod INTEGER IDENTITY(1,1) NOT NULL,
+	est_cod INTEGER NOT NULL,
+	cid_nome VARCHAR(100) NOT NULL
+	CONSTRAINT pkCid PRIMARY KEY (cid_cod),
+	CONSTRAINT fkCid FOREIGN KEY (est_cod) REFERENCES Estado
+    );

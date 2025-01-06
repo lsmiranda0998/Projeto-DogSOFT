@@ -1,0 +1,464 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{8E448075-44A7-4699-B6C3-49DF3E29829F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>DogSoft</RootNamespace>
+    <AssemblyName>DogSoft</AssemblyName>
+    <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Controladora\DALAtendimento.cs" />
+    <Compile Include="Controladora\DALCaixa.cs" />
+    <Compile Include="Controladora\DALCidade.cs" />
+    <Compile Include="Controladora\DALCliente.cs" />
+    <Compile Include="Controladora\DALCombo.cs" />
+    <Compile Include="Controladora\DALEntrega.cs" />
+    <Compile Include="Controladora\DALEstado.cs" />
+    <Compile Include="Controladora\DALFluxo.cs" />
+    <Compile Include="Controladora\DALFormaPagamento.cs" />
+    <Compile Include="Controladora\DalFornecedor.cs" />
+    <Compile Include="Controladora\DALFuncionario.cs" />
+    <Compile Include="Controladora\DALitp.cs" />
+    <Compile Include="Controladora\DALMesa.cs" />
+    <Compile Include="Controladora\DalParametrizacao.cs" />
+    <Compile Include="Controladora\DALPessoa.cs" />
+    <Compile Include="Controladora\DALProduto.cs" />
+    <Compile Include="Controladora\DALReceberConta.cs" />
+    <Compile Include="Controladora\DALrgp.cs" />
+    <Compile Include="Modelo\Atendimento.cs" />
+    <Compile Include="Modelo\Caixa.cs" />
+    <Compile Include="Modelo\Cidade.cs" />
+    <Compile Include="Modelo\Cliente.cs" />
+    <Compile Include="Modelo\Combo.cs" />
+    <Compile Include="Modelo\Entrega.cs" />
+    <Compile Include="Modelo\Estado.cs" />
+    <Compile Include="Modelo\FluxoCaixa.cs" />
+    <Compile Include="Modelo\formaPagamento.cs" />
+    <Compile Include="Modelo\Fornecedor.cs" />
+    <Compile Include="Modelo\Funcionario.cs" />
+    <Compile Include="Modelo\intens_Pedido.cs" />
+    <Compile Include="Modelo\Itens_Combo.cs" />
+    <Compile Include="Modelo\Mesa.cs" />
+    <Compile Include="Modelo\Parametrizacao.cs" />
+    <Compile Include="Modelo\Pessoa.cs" />
+    <Compile Include="Modelo\Produto.cs" />
+    <Compile Include="Modelo\ReceberConta.cs" />
+    <Compile Include="Modelo\Rgp.cs" />
+    <Compile Include="Persistencia\AtendimentoBD.cs" />
+    <Compile Include="Persistencia\Banco.cs" />
+    <Compile Include="Persistencia\CaixaBD.cs" />
+    <Compile Include="Persistencia\CidadeBD.cs" />
+    <Compile Include="Persistencia\ClienteBD.cs" />
+    <Compile Include="Persistencia\ComboBD.cs" />
+    <Compile Include="Persistencia\EntregaBD.cs" />
+    <Compile Include="Persistencia\EstadoBD.cs" />
+    <Compile Include="Persistencia\FluxoCaixaBD.cs" />
+    <Compile Include="Persistencia\FormaPagamentoBD.cs" />
+    <Compile Include="Persistencia\FornecedorBD.cs" />
+    <Compile Include="Persistencia\FuncionarioBD.cs" />
+    <Compile Include="Persistencia\itpBD.cs" />
+    <Compile Include="Persistencia\MesaBD.cs" />
+    <Compile Include="Persistencia\ParametrizacaoBD.cs" />
+    <Compile Include="Persistencia\PessoaBD.cs" />
+    <Compile Include="Persistencia\ProdutoBD.cs" />
+    <Compile Include="Persistencia\ReceberContaBD.cs" />
+    <Compile Include="Persistencia\RgpBD.cs" />
+    <Compile Include="Visao\BuscarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\BuscarFornecedor.Designer.cs">
+      <DependentUpon>BuscarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\BuscarPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\BuscarPedido.Designer.cs">
+      <DependentUpon>BuscarPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\BuscarProduto.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\BuscarProduto.Designer.cs">
+      <DependentUpon>BuscarProduto.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\CancelaPedido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\CancelaPedido.Designer.cs">
+      <DependentUpon>CancelaPedido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\ConsultaAtendimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\ConsultaAtendimento.Designer.cs">
+      <DependentUpon>ConsultaAtendimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\ConsultaCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\ConsultaCliente.Designer.cs">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\ConsultaFuncionario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\ConsultaFuncionario.Designer.cs">
+      <DependentUpon>ConsultaFuncionario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\FormaPagamento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\FormaPagamento.Designer.cs">
+      <DependentUpon>FormaPagamento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\FormaPagamento2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\FormaPagamento2.Designer.cs">
+      <DependentUpon>FormaPagamento2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\GerenciarEntrega.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\GerenciarEntrega.Designer.cs">
+      <DependentUpon>GerenciarEntrega.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\GerenciarFornecedor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\GerenciarFornecedor.Designer.cs">
+      <DependentUpon>GerenciarFornecedor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\Login.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\Login.Designer.cs">
+      <DependentUpon>Login.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\PerguntaValor.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\PerguntaValor.Designer.cs">
+      <DependentUpon>PerguntaValor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\ReceberContas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\ReceberContas.Designer.cs">
+      <DependentUpon>ReceberContas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\Registar Pedido Telefonico.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\Registar Pedido Telefonico.Designer.cs">
+      <DependentUpon>Registar Pedido Telefonico.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\RegistroAtendimento.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\RegistroAtendimento.Designer.cs">
+      <DependentUpon>RegistroAtendimento.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\TelaParametrizacao.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\TelaParametrizacao.Designer.cs">
+      <DependentUpon>TelaParametrizacao.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\TelaPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\TelaPrincipal.Designer.cs">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Visao\Gerenciamentofuncionário.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Visao\Gerenciamentofuncionário.Designer.cs">
+      <DependentUpon>Gerenciamentofuncionário.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Visao\BuscarFornecedor.resx">
+      <DependentUpon>BuscarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\BuscarPedido.resx">
+      <DependentUpon>BuscarPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\BuscarProduto.resx">
+      <DependentUpon>BuscarProduto.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\CancelaPedido.resx">
+      <DependentUpon>CancelaPedido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\ConsultaAtendimento.resx">
+      <DependentUpon>ConsultaAtendimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\ConsultaCliente.resx">
+      <DependentUpon>ConsultaCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\ConsultaFuncionario.resx">
+      <DependentUpon>ConsultaFuncionario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\FormaPagamento.resx">
+      <DependentUpon>FormaPagamento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\FormaPagamento2.resx">
+      <DependentUpon>FormaPagamento2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\GerenciarEntrega.resx">
+      <DependentUpon>GerenciarEntrega.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\GerenciarFornecedor.resx">
+      <DependentUpon>GerenciarFornecedor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\Login.resx">
+      <DependentUpon>Login.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\PerguntaValor.resx">
+      <DependentUpon>PerguntaValor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\ReceberContas.resx">
+      <DependentUpon>ReceberContas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\Registar Pedido Telefonico.resx">
+      <DependentUpon>Registar Pedido Telefonico.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\RegistroAtendimento.resx">
+      <DependentUpon>RegistroAtendimento.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\TelaParametrizacao.resx">
+      <DependentUpon>TelaParametrizacao.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\TelaPrincipal.resx">
+      <DependentUpon>TelaPrincipal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Visao\Gerenciamentofuncionário.resx">
+      <DependentUpon>Gerenciamentofuncionário.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-cardápio-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\1350580999_document-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\novoDocumento.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\document-new.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\select.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\old-edit-find.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-página-inicial-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-desligamento-do-servidor-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\08.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\aguarde.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Bank.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\bids_and_budget.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\buscar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\carregando.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\clients %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\clients.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\close.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\coins.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\companies.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\credit-card-payment %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\credit-card-payment.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\document.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\download-20.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\edit-clear.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\email.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\email_open.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\estimonials.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\executive.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\galternatives.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\gtk-cancel.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-ajuda-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-ajuda-50.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-mais-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-mais-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\icons8-menos-16.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Login Manager %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Money_Bag %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\money_bag %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\money_bag.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\packing.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Phone_number %282%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Phone_number.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\print_printer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\save_accept.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Security.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Security_Card.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Streamline-67-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\trash_16x16.gif" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\user-id-48.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\webmaster.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\LogoDS.bmp" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\Login_in.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="imagens\i_check.gif" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
