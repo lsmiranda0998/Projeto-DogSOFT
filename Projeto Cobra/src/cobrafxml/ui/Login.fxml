@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.geometry.*?>
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="426.0" prefWidth="345.0" stylesheets="@../../../../Projeto%20cobra%20-%20Lucas/CobraDB_LucasBarbozaSanches/src/cobradb/css/Padrao.css" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobrafxml.ui.LoginController">
+   <center>
+      <VBox alignment="CENTER" prefHeight="400.0" prefWidth="375.0" spacing="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <JFXTextField fx:id="txUsuario" focusColor="#006db3" labelFloat="true" prefHeight="25.0" prefWidth="378.0" promptText="Usuário">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+            </JFXTextField>
+            <JFXPasswordField fx:id="txSenha" focusColor="#006db3" labelFloat="true" promptText="Senha">
+               <VBox.margin>
+                  <Insets left="50.0" right="50.0" />
+               </VBox.margin>
+            </JFXPasswordField>
+            <HBox alignment="CENTER" prefHeight="34.0" prefWidth="451.0" spacing="30.0">
+               <children>
+                  <JFXButton fx:id="btnConfirmar" maxWidth="100.0" minWidth="100.0" onAction="#clkEntrar" prefWidth="100.0" ripplerFill="#006db3" text="Confirmar" />
+                  <JFXButton fx:id="btnCancelar" maxWidth="100.0" minWidth="100.0" onAction="#clkCancelar" prefWidth="100.0" ripplerFill="#006db3" text="Cancelar" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

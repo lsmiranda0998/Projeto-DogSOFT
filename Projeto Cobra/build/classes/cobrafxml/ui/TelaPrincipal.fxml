@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Accordion?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TitledPane?>
+<?import javafx.scene.effect.InnerShadow?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="571.0" prefWidth="612.0" stylesheets="@css/jfoenix-components.css" xmlns="http://javafx.com/javafx/8.0.111" xmlns:fx="http://javafx.com/fxml/1" fx:controller="cobrafxml.ui.TelaPrincipalController">
+   <top>
+      <HBox prefHeight="42.0" prefWidth="605.0" BorderPane.alignment="CENTER" />
+   </top>
+   <left>
+      <Accordion BorderPane.alignment="CENTER">
+        <panes>
+          <TitledPane animated="false" text="Configurações">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="itDevedor" onMouseClicked="#clkitemDevedor" text="Devedor">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <Label fx:id="itCobrador" layoutX="20.0" layoutY="20.0" onMouseClicked="#clkitemCobrador" text="Cobrador">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <Label fx:id="itSituacao" layoutX="20.0" layoutY="37.0" onMouseClicked="#clkitemSituacao" text="Situação">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <Label fx:id="itOrigem" layoutX="20.0" layoutY="54.0" onMouseClicked="#clkItemOrigem" text="Origem">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+          <TitledPane animated="false" text="Cobrança">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="itnovaCobranca" onMouseClicked="#clkitemNovaCobranca" text="Nova Cobrança">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                        <Label text="Abrir Cobrança" />
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="60.0" text="Relatórios">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="itrelCobradores" onMouseClicked="#clkitemrelCobradores" text="Cobradores">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                        <Label fx:id="itrelDevedores" onMouseClicked="#clkitemrelDevedores" text="Devedores">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                        <Label fx:id="itrelCidades" onMouseClicked="#clkitemrelCidades" text="Cidades">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <Label fx:id="itrelCidadesFiltro" onMouseClicked="#clkitemrelCidadesFiltro" text="CidadesFiltro">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                        <Label fx:id="itrelLembretes" onMouseClicked="#clkitemrelLembretes" prefHeight="17.0" prefWidth="71.0" text="Lembretes">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor>
+                        </Label>
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+            <TitledPane animated="false" layoutX="10.0" layoutY="35.0" text="Utilitários">
+               <content>
+                  <VBox prefHeight="200.0" prefWidth="100.0">
+                     <children>
+                        <Label fx:id="itUsuario" onMouseClicked="#clkitemUsuario" text="Usuário">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                        <Label fx:id="itBackup" onMouseClicked="#clkitemBackup" text="Backup">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                        <Label fx:id="clkitRestore" layoutX="20.0" layoutY="37.0" onMouseClicked="#clkitemRestore" text="Restore">
+                           <cursor>
+                              <Cursor fx:constant="HAND" />
+                           </cursor></Label>
+                     </children>
+                  </VBox>
+               </content>
+            </TitledPane>
+        </panes>
+      </Accordion>
+   </left>
+   <center>
+      <ScrollPane fx:id="pnCentral" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: lightblue;" BorderPane.alignment="CENTER">
+         <content>
+            <VBox prefHeight="519.0" prefWidth="485.0">
+               <children>
+                  <Label prefHeight="472.0" prefWidth="504.0" text="CobraFX" textAlignment="CENTER" textFill="#2f39f2">
+                     <effect>
+                        <InnerShadow height="255.0" radius="63.25" width="0.0" />
+                     </effect>
+                     <font>
+                        <Font name="Times New Roman" size="96.0" />
+                     </font>
+                     <padding>
+                        <Insets left="75.0" />
+                     </padding>
+                  </Label>
+                  <Label alignment="BOTTOM_RIGHT" prefHeight="50.0" prefWidth="498.0" text="Por: Caique Cesar e Leonardo Miranda">
+                     <font>
+                        <Font name="System Bold" size="18.0" />
+                     </font>
+                     <VBox.margin>
+                        <Insets />
+                     </VBox.margin>
+                  </Label>
+               </children>
+            </VBox>
+         </content></ScrollPane>
+   </center>
+</BorderPane>
